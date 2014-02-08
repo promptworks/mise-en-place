@@ -10,7 +10,6 @@ recipes:
         - applications::composer
         - applications::postgresql
         - applications::mysql
-        - applications::apache
         - applications::php55
         - dotfiles::workspace
     mac_os_x:
