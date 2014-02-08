@@ -60,3 +60,9 @@ attributes:
             - watch
             - sequel-pro
             - sourcetree
+    nodejs:
+        apps:
+            - phonegap
+            - bower
+            - grunt
+            - grunt-cli

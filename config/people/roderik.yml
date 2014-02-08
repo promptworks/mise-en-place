@@ -7,9 +7,7 @@ recipes:
         - dotfiles::sshconfig
     mac_os_x:
         - applications::omnigraffle
-        - skylab::default
-        - sudo::default
-        - applications::vagrant
+        - sudoalt::default
         - osxdefaults::dock_automatically_hide_and_show_the_dock
         - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
         - osxdefaults::dock_enable_spring_loading_for_all_dock_items
@@ -63,3 +61,6 @@ attributes:
             - totalfinder
             - spotify
             - bartender
+            - vmware-fusion
+            - virtualbox
+            - vagrant
