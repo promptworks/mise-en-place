@@ -1,10 +1,7 @@
 recipes:
     global:
         - dotfiles::gitconfig
-        - applications::grunt-cli
-        - applications::bower
         - applications::sass
-        - applications::nodejs
         - applications::ssh_config
         - dotfiles::vim
         - applications::composer
