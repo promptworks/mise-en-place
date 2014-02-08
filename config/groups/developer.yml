@@ -50,11 +50,11 @@ attributes:
             - htop-osx
             - git-flow
             - siege
+            - watch
         cask_apps:
             - imageoptim
             - imagealpha
             - phpstorm
-            - watch
             - sequel-pro
             - sourcetree
     nodejs:
