@@ -7,6 +7,7 @@ cookbook "osxdefaults",           :github => "kitchenplan/chef-osxdefaults",    
 cookbook "dotfiles",              :github => "kitchenplan/chef-dotfiles",       :ref => "v1.0"
 cookbook "drivers",               :github => "kitchenplan/chef-drivers",        :ref => "v1.0"
 cookbook "sudoalt",               :github => "kitchenplan/chef-sudoalt"
+cookbook "dmg",                   :github => "opscode-cookbooks/dmg",           :ref => "v2.1.4"
 
 
 # If you want to use either rvm or rbenv, uncomment the relevant line:
