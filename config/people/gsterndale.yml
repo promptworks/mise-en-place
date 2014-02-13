@@ -14,9 +14,9 @@ recipes:
         - applications::omnigraffle
         - applications::alfred
         - applications::totalfinder
-        - applications::spotify
+        # - applications::spotify
         - applications::bartender
-#        - applications::hhvm
+        # - applications::hhvm
         - skylab::default
         - sudo::default
         - applications::vagrant
