@@ -10,7 +10,6 @@ cookbook "apt",                   :github => "opscode-cookbooks/apt",           
 cookbook "homebrew",              :github => "kitchenplan/homebrew",            :ref => "v1.6"
 cookbook "apache2",               :github => "Kunstmaan/apache2",               :ref => "apache_2.4_with_mod_jk"
 cookbook "logrotate",             :github => "kitchenplan/logrotate",           :ref => "v1.5.0"
-cookbook "php",                   :github => "Kunstmaan/chef-php",              :ref => "v1.3"
 cookbook "postgresql",            :github => "hw-cookbooks/postgresql",         :ref => "v3.3.4"
 cookbook "percona",               :github => "thomasmeeus/chef-percona",        :ref => "0.15"
 cookbook "imagemagick",           :github => "opscode-cookbooks/imagemagick",   :ref => "e80c1ca66b0a905cbb6096ee1e5fa19911067208"

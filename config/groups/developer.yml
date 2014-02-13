@@ -19,14 +19,11 @@ recipes:
         - applications::postgresql
         - applications::mysql
         - applications::apache
-        # - applications::php55
         - dotfiles::workspace
     mac_os_x:
         - applications::imageoptim
         - applications::imagealpha
         - applications::svgo
-        # - applications::sublime_text_3
-        # - applications::phpstorm
         - applications::watch
         - applications::gnu-tar
         - applications::sequelpro
