@@ -7,14 +7,14 @@
 # with the latest changes before installing new recipes.
 #
 # example execution:
-#   $ ruby -e "$(curl -fsSL https://raw.github.com/kitchenplan/kitchenplan/master/go)"
+#   $ ruby -e "$(curl -fsSL https://raw.github.com/promptworks/mise-en-place/master/go)"
 #
 # execution can be customized by the following environmental variables:
 # KITCHENPLAN_PATH - kitchenplan installation path (defaults to /opt/kitchenplan)
-# KITCHENPLAN_REPO - repository to use for recipes/cookbooks (defaults to https://github.com/kitchenplan/kitchenplan.git)
+# KITCHENPLAN_REPO - repository to use for recipes/cookbooks (defaults to https://github.com/promptworks/mise-en-place.git)
 
 KITCHENPLAN_PATH = ENV.fetch("KITCHENPLAN_PATH", "/opt/kitchenplan")
-KITCHENPLAN_REPO = ENV.fetch("KITCHENPLAN_REPO", "https://github.com/kitchenplan/kitchenplan.git")
+KITCHENPLAN_REPO = ENV.fetch("KITCHENPLAN_REPO", "https://github.com/promptworks/mise-en-place.git")
 
 require 'optparse'
 options = {}
