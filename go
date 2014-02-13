@@ -148,6 +148,7 @@ if macos_version > "10.8"
     puts "Press any key when the installation has completed."
     getc
   end
+  sudo "xcrun cc"
 end
 
 if File.directory?(KITCHENPLAN_PATH)
