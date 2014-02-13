@@ -68,7 +68,11 @@ def warn warning
 end
 
 def system *args
-  abort "Failed during: #{args.shell_s}" unless Kernel.system *args
+  abort "Failed during: #{args.shell_s}" unless system! *args
+end
+
+def system! *args
+  Kernel.system *args
 end
 
 def warnandexit message
@@ -77,18 +81,29 @@ def warnandexit message
 end
 
 def sudo *args
-  args = if args.length > 1
+  normaldo addsudo *args
+end
+
+def sudo! *args
+  normaldo! addsudo *args
+end
+
+def addsudo *args
+  if args.length > 1
     args.unshift "/usr/bin/sudo"
   else
     "/usr/bin/sudo #{args.first}"
   end
-  ohai *args
-  system *args
 end
 
 def normaldo *args
   ohai *args
   system *args
+end
+
+def normaldo! *args
+  ohai *args
+  system! *args
 end
 
 def getc  # NOTE only tested on OS X
@@ -148,7 +163,7 @@ if macos_version > "10.8"
     puts "Press any key when the installation has completed."
     getc
   end
-  sudo "xcrun cc"
+  sudo! "xcrun cc"
 end
 
 if File.directory?(KITCHENPLAN_PATH)
