@@ -13,4 +13,4 @@ recipes:
         - applications::java
 attributes:
     postfix:
-        domain: "kunstmaan.be"
+        domain: "promptworks.com"
