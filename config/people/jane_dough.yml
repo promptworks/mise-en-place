@@ -40,7 +40,7 @@ attributes:
     dotfiles:
         vimusers:
             - root
-            - roderik
+            - jane_dough
         kdeploy:
             hostname: dev
         vim:
@@ -52,13 +52,13 @@ attributes:
                 - syntastic: git://github.com/scrooloose/syntastic.git
                 - nerdtree: https://github.com/scrooloose/nerdtree.git
     git:
-        name: Roderik van der Veer
-        email: roderik.van.der.veer@kunstmaan.be
+        name: Jane Dough
+        email: jane_dough@example.com
     osxdefaults:
         computername: Mir
     authorization:
         sudo:
             users:
-                - roderik
+                - jane_dough
             passwordless: true
             include_sudoers_d: true

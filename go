@@ -134,9 +134,9 @@ end
 ohai "This script will install:"
 puts "  - Command Line Tools if they are not installed"
 puts "  - Chef"
-puts "  - All applications configured in <yourusername>.yml or if not available roderik.yml"
+puts "  - All applications configured in <yourusername>.yml or if not available jane_dough.yml"
 puts ""
-warn "Unless by chance your user is also named Roderik, and you want exactly the same applications as I, use the KITCHENPLAN_REPO env to point to a fork with a config file named for your username."
+warn "Unless by chance your user is also named jane_dough, and you want exactly the same applications as that user, use the KITCHENPLAN_REPO env to point to a fork with a config file named for your username."
 puts ""
 
 wait_for_user if options[:interaction]
