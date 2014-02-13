@@ -166,7 +166,7 @@ if macos_version > "10.8"
   sudo! "xcrun cc"
 end
 
-if File.directory?(KITCHENPLAN_PATH)
+if File.directory?(File.join KITCHENPLAN_PATH, '.git')
   ohai "Updating existing kitchenplan installation..."
   Dir.chdir KITCHENPLAN_PATH
   normaldo "git pull"
