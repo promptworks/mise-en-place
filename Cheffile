@@ -1,6 +1,6 @@
 site "http://community.opscode.com/api/v1"
 
-cookbook "applications",          :github => "promptworks/chef-applications",   :ref => "v1.0"
+cookbook "applications",          :github => "promptworks/chef-applications",   :ref => "master"
 cookbook "osxdefaults",           :github => "kitchenplan/chef-osxdefaults",    :ref => "v1.0"
 cookbook "dotfiles",              :github => "kitchenplan/chef-dotfiles",       :ref => "v1.0"
 cookbook "drivers",               :github => "kitchenplan/chef-drivers",        :ref => "v1.0"
