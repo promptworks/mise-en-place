@@ -28,6 +28,7 @@ recipes:
         - applications::gnu-tar
         - applications::sequelpro
         - applications::sourcetree
+        - applications::iterm2
         - osxdefaults::set_terminal_profile
         - osxdefaults::add_a_context_menu_item_for_showing_the_web_inspector_in_web_views
         - osxdefaults::disable_press-and-hold_for_keys_in_favor_of_key_repeat
