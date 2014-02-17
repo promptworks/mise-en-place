@@ -51,6 +51,14 @@ attributes:
                 - gsterndale
             passwordless: true
             include_sudoers_d: true
+    rvm:
+        user_installs:
+            - user: gsterndale
+              default_ruby: 2.1.0
+              rubies:
+                  - 2.1.0
+                  - 1.9.2
+                  - 1.8.7
     homebrewalt:
         cask_apps:
             - onepassword
