@@ -56,12 +56,18 @@ attributes:
             - ack
             - chruby
             - ruby-install
+            - docker
+            - redis
+            - tmux
         cask_apps:
             - imageoptim
             - imagealpha
             - sequel-pro
             - sourcetree
             - iterm2
+            - teleport
+            - screenhero
+            - heroku-toolbelt
     nodejs:
         apps:
             - phonegap
