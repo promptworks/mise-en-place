@@ -51,6 +51,9 @@ attributes:
             - vim
             - macvim
             - watch
+            - phantomjs
+            - tree
+            - ack
             - chruby
             - ruby-install
         cask_apps:
