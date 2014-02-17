@@ -49,6 +49,7 @@ attributes:
             - htop-osx
             - git-flow
             - siege
+            - vim
             - watch
         cask_apps:
             - imageoptim
