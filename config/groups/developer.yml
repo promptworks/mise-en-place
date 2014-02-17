@@ -8,8 +8,6 @@ recipes:
         - applications::composer
         - applications::postgresql
         - applications::mysql
-        - applications::chruby
-        - applications::ruby_install
         - dotfiles::workspace
     mac_os_x:
         - applications::svgo
@@ -53,6 +51,8 @@ attributes:
             - siege
             - vim
             - watch
+            - chruby
+            - ruby-install
         cask_apps:
             - imageoptim
             - imagealpha
