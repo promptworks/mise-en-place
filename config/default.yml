@@ -1,11 +1,9 @@
 recipes:
     global:
         - applications::create_var_chef_cache
-        - applications::google-chrome
-        - applications::firefox
-        - applications::java
     mac_os_x:
-        - applications::alfred
+        - homebrewalt::default
+        - nodejs::default
         - osxdefaults::add_note_to_loginscreen
         - osxdefaults::disable_auto-correct
         - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
@@ -20,3 +18,9 @@ attributes:
     drivers:
     osxdefaults:
         loginmessage: Property of PromptWorks - 016 300 780 - ohai@promptworks.com
+    homebrewalt:
+        cask_apps:
+            - google-chrome
+            - firefox
+            - java
+            - alfred

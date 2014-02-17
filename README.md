@@ -33,11 +33,11 @@ $ ruby -e "$(curl -fsSL https://raw.github.com/promptworks/mise-en-place/master/
 
 Before you run the commadn above, or manually run the```./kitchenplan``` command, you should first create a custom config file. The config system will always start off with ```default.yml```. This will contain the recipes for every person in your organisation. Next it it will look at the file ```yourusername.yml``` (with the username logged in on the computer as yourusername) for your custom settings. Ofcourse there will be a lot of shared config when your organisation has departments of different types of personel. So you can define group config files and assign one or more groups to a user. The ```jane_dough.yml``` ([found here](https://github.com/promptworks/mise-en-place/blob/master/config/people/jane_dough.yml)) is my personal config file and it will fall back to this config if you don't have a personal file.
 
-When you are done with that, run the go script or run ```kitchenplan``` manually and wait for a while. After the command finishes, reboot your computer and you are good to go.
+When you are done with that, run the ```go``` script or run ```kitchenplan``` manually and wait for a while. After the command finishes, reboot your computer and you are good to go.
 
 ### Command line tools
 
-There are some useful command line options, run ```kitchenplan -d``` or look here:
+There are some useful command line options, run ```kitchenplan -h``` or look here:
 
 ```
 Usage: kitchenplan [options]
@@ -52,13 +52,13 @@ Common options:
 
 ### Caveat
 
-We are running this project in production for both OSX and Ubuntu development machines. So I'm pretty sure it all works just fine. But, in the gap between two new installs, all the applications we install, and all community cookbooks are in constant development and can potentially break the install. I always suggest to our people that they run it first in a virtual machine (You can easily install OSX in a VMware Fusion trial, or use Vagrant for Linux testing).
+We are running this project in production for OSX development machines. So I'm pretty sure it all works just fine. But, in the gap between two new installs, all the applications we install, and all community cookbooks are in constant development and can potentially break the install. I always suggest to our people that they run it first in a virtual machine (You can easily install OSX in a VMware Fusion trial).
 
 ### Want to contribute?
 
 Fork and send pull requests or just idea's and issues via the issue tracker. If you need a new recipe, fork the chef-* repo's and change the url in the Cheffile to make it fetch your version. Add it and send a pull request. For now we support OSX and the debian family (only tested on Ubuntu). Other operating systems are welcome!
 
-More questions, ping me at [Twitter @r0derik](http://twitter.com/r0derik) or visit our [HipChat channel](https://www.hipchat.com/gTkMJo2Ag).
+More questions, ping me at [Twitter @r0derik](http://twitter.com/r0derik) or visit the [HipChat channel](https://www.hipchat.com/gTkMJo2Ag).
 
 ### Acknowledgements
 
