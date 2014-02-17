@@ -9,7 +9,6 @@ recipes:
         - applications::postgresql
         - applications::mysql
         - dotfiles::workspace
-        - rvm::system
     mac_os_x:
         - applications::svgo
         - applications::gnu-tar
