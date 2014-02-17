@@ -8,7 +8,6 @@ recipes:
         - applications::composer
         - applications::postgresql
         - applications::mysql
-        - applications::apache
         - dotfiles::workspace
     mac_os_x:
         - applications::svgo
