@@ -59,6 +59,7 @@ attributes:
             - docker
             - redis
             - tmux
+            - curl-ca-bundle
         cask_apps:
             - imageoptim
             - imagealpha
