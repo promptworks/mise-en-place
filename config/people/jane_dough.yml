@@ -60,7 +60,6 @@ attributes:
             - alfred
             - totalfinder
             - bartender
-            - vmware-fusion
             - virtualbox
             - vagrant
             - hazel
