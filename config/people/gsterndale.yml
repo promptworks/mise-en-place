@@ -65,3 +65,4 @@ attributes:
             - mailplane
             - arq
             - google-drive
+            - paparazzi
